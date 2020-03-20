@@ -1,0 +1,30 @@
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="/stylesheets/index.css">
+</head>
+<body>
+  EverWebinar Chatbot Dashboard!
+  <div class="moderator-section">
+  	<input type="text" id="moderator-name" />
+  	<button onclick="setModeratorName()"> Reset </button>
+  </div>
+  <div class="timed-messages-section">
+  	<table style="text-align: center;" id="messageTable">
+  		<tr>
+	  		<th>No</th>
+	  		<th>Video Time</th>
+	  		<th>To say</th>
+	  		<th>Moderator Name</th>
+  		</tr>
+  		<tr>
+	  		<td>1</td>
+	  		<td>-1</td>
+	  		<td>Hello [Name], welcome to Webinar</td>
+	  		<td>LIoyd</td>
+  		</tr>
+  	</table>
+  </div>
+  <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+  <script src="/javascripts/index.js"></script>
+</body>
+</html>

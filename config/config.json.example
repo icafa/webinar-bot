@@ -1,0 +1,23 @@
+{
+  "development": {
+    "database": "ewbotdb",
+    "username": "postgres",
+    "password": null,
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "test": {
+    "database": "ewbotdb",
+    "username": "postgres",
+    "password": null,
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "production": {
+    "database": "ewbotdb",
+    "username": "postgres",
+    "password": "password",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  }
+}

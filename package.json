@@ -1,0 +1,26 @@
+{
+  "name": "EverWebinar-chatbot",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "body-parser": "^1.18.3",
+    "consolidate": "^0.15.1",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "fs": "0.0.1-security",
+    "hogan": "^1.0.2",
+    "http": "0.0.0",
+    "jade": ">= 0.0.1",
+    "mongoose": "^5.0.6",
+    "path": "^0.12.7",
+    "pg": "^7.4.3",
+    "request": "^2.87.0",
+    "sequelize": "^4.39.0",
+    "sequelize-cli": "^4.1.1",
+    "uuid": "^3.3.2"
+  }
+}
